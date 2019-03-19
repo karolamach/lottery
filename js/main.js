@@ -1,8 +1,8 @@
-var lotteryArray = [];
-	var lotteryNumbers = [];
-	var chosenNumbers = [];
+let lotteryArray = [];
+	let lotteryNumbers = [];
+	let chosenNumbers = [];
 
-	for (var i=1; i<50; i++) {
+	for (let i=1; i<50; i++) {
 		lotteryArray.push(i);
 	}
 	
@@ -11,8 +11,8 @@ var lotteryArray = [];
 	function pickNumbers () {
 		
 			// Generate a random number from the array
-			var random = Math.floor(Math.random() * lotteryArray.length);
-			var number = lotteryArray[random];
+			let random = Math.floor(Math.random() * lotteryArray.length);
+			let number = lotteryArray[random];
 			
 			console.log(number);
 			
@@ -20,12 +20,14 @@ var lotteryArray = [];
 			lotteryArray.splice(random, 1);
 			lotteryNumbers.push(number); 
 			
-			//print the array out
-			var chosenNumbers = lotteryNumbers.join(",");
+			//print the array 
+			let chosenNumbers = lotteryNumbers.join(",");
 			
-			$("#list").append('<li>' + number + '</li>');
+		 $("#list").append('<li>' + number + '</li>');
 		
 	}
+	// Generate only 3 numbers
+
 	
 	function start() { 
 	
@@ -33,9 +35,10 @@ var lotteryArray = [];
 	
 			pickNumbers();
 			
-			if(lotteryNumbers.length > 5) {
+			
+			if(lotteryNumbers.length > 2) {
 				window.clearInterval(timer);
-				var sortNumbers = lotteryNumbers.sort(function(a,b){return a-b;});
+				let sortNumbers = lotteryNumbers.sort(function(a,b){return a-b;});
 				$('#list li').each(function (index) {
 				    $(this).text(sortNumbers[index]);
 				});
