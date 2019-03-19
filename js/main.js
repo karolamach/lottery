@@ -26,7 +26,7 @@ let lotteryArray = [];
 		 $("#list").append('<li>' + number + '</li>');
 		
 	}
-	// Generate only 3 numbers
+
 
 	
 	function start() { 

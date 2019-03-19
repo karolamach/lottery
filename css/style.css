@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/back-bingo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-name-btn{
+    text-align: right;
+}
+
+h2{
+    font-size: 50px;
+    text-align: right;
+
+}
+
+.btn{
+    font-size:20px;
+    border-radius: 20%;
+    text-decoration: none;
+    
+}
+
