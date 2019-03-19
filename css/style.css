@@ -1,3 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    height:100%;
+
+}
+
 body{
     background-image: url(../img/back-bingo.jpg);
     background-repeat: no-repeat;
@@ -6,18 +16,77 @@ body{
 
 .container-name-btn{
     text-align: right;
+    margin-right: 200px;
+    font-family: 'Lucida Sans', sans-serif;
 }
 
 h2{
-    font-size: 50px;
-    text-align: right;
+    font-size: 80px;
+    margin-bottom: 0%;
+    font-family: 'Lucida Sans',sans-serif;
+    color: blue;
+    margin-right: 5%;
 
 }
 
 .btn{
     font-size:20px;
-    border-radius: 20%;
-    text-decoration: none;
+    border-radius: 30%;
+    outline: none;
+    margin-right:10%;
+    padding:1%;
+    background-color: violet;
+    color: blue;
+    border:none;
+
     
 }
 
+/* .btn:focus{
+    background-color: orange;
+} */
+
+.btn:active{
+    background-color: orange;
+}
+.btn:hover{
+    background-color: orange;
+}
+.about-app{
+    font-size:30px;
+    margin-top:0%;
+    font-family: "Lucida Sans", cursive;
+    color: yellow;
+   
+
+}
+
+.container-list-numbers{
+    text-align: right;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color:darkgreen;
+    width:1000px;
+    margin:0 auto;
+    min-height:calc(100% - 50px);
+ 
+}
+
+#list{
+    margin-right: 20%;
+    list-style-type: none;
+}
+
+
+/* FOOTER */
+footer{
+    height:50px;
+    background: orange;
+    color:black;
+    text-align:center; 
+}
+
+footer p { 
+    padding:15px 0 0; 
+}
