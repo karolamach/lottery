@@ -36,7 +36,7 @@ let lotteryArray = [];
 			pickNumbers();
 			
 			
-			if(lotteryNumbers.length > 2) {
+			if(lotteryNumbers.length > 0) {
 				window.clearInterval(timer);
 				let sortNumbers = lotteryNumbers.sort(function(a,b){return a-b;});
 				$('#list li').each(function (index) {
