@@ -29,6 +29,8 @@ h2{
 
 }
 
+/* START BUTTON */
+
 .btn{
     font-size:20px;
     border-radius: 30%;
@@ -38,8 +40,6 @@ h2{
     background-color: violet;
     color: blue;
     border:none;
-
-    
 }
 
 /* .btn:focus{
@@ -57,8 +57,6 @@ h2{
     margin-top:0%;
     font-family: "Lucida Sans", cursive;
     color: yellow;
-   
-
 }
 
 .container-list-numbers{
@@ -78,6 +76,25 @@ h2{
     list-style-type: none;
 }
 
+/* RESET BUTTON */
+
+#reset{
+    font-size:20px;
+    border-radius: 30%;
+    outline: none;
+    margin-right:10%;
+    padding:1%;
+    background-color: violet;
+    color: blue;
+    border:none;
+}
+#reset:active{
+    background-color: orange;
+}
+#reset:hover{
+    background-color: orange;
+}
+
 
 /* FOOTER */
 footer{
@@ -90,3 +107,5 @@ footer{
 footer p { 
     padding:15px 0 0; 
 }
+
+
