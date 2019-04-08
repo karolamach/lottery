@@ -29,13 +29,17 @@ h2{
 
 }
 
+.btns{
+    margin-left: 40%;
+   
+}
+
 /* START BUTTON */
 
 .btn{
     font-size:20px;
     border-radius: 30%;
     outline: none;
-    margin-right:10%;
     padding:1%;
     background-color: violet;
     color: blue;
@@ -82,7 +86,6 @@ h2{
     font-size:20px;
     border-radius: 30%;
     outline: none;
-    margin-right:10%;
     padding:1%;
     background-color: violet;
     color: blue;
