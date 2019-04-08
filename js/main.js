@@ -46,3 +46,9 @@ let lotteryArray = [];
 		}, 1000); 
 	
 	}
+
+
+	document.getElementById("reset").onclick = function () {
+		document.getElementById("list").innerHTML = "";
+		location.reload();
+			}
